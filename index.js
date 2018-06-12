@@ -9,6 +9,6 @@ const argv = require('yargs')
 const txJSON = argv._[0];
 const secret = argv._[1];
 
-console.log(sign(txJSON, secret));
+console.log(JSON.stringify(sign(txJSON, secret)));
 
 process.exit(0);

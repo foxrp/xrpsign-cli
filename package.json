@@ -1,6 +1,6 @@
 {
   "name": "xrpsign-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line utility for signing XRP transactions.",
   "repository": "https://github.com/organizations/foxrp/xrpsign-cli",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "xrpsign": "^1.0.1",
+    "xrpsign": "^1.0.3",
     "yargs": "^11.0.0"
   },
   "bin": {
